@@ -1,0 +1,59 @@
+body{
+    background-color: gray;
+}
+#Cabecera {
+    background-color: yellowgreen;
+    padding: 15px;
+    letter-spacing: 5px;
+}
+
+#menu {
+background-color: slategray;
+padding: 10px;
+width: auto;
+height: 50px;
+}
+
+#menu li {
+display: inline;
+list-style: none;/*para quita viñetas de linea*/
+padding: 20px;
+}
+
+
+
+#Contenido {
+    float: left;
+    margin-left: 25px;
+    margin-right: 700px;
+}
+
+
+aside{
+    float: left;
+    width: 200px;   
+    padding: 20px;
+}
+
+
+
+footer{
+    clear: both;
+}
+
+
+
+#menuD {
+background-color: slategray;
+margin: auto;
+padding: 10px;
+}
+
+#menuD ul < li a {
+color: black;
+text-decoration-line: none;
+font: bold 20px Verdana;
+padding: 10px;              /*espacio entre menu*/
+background: #fff;     /*rrelleno de menu*/
+
+}

@@ -1,0 +1,47 @@
+/*https://www.udemy.com/php-y-mysql/?couponCode=LANDING-20*/
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+ header {
+width: 100%;
+background: slategray;
+ }
+
+ nav {
+margin: 10px auto; /*espacio de margen borde superior*/
+width: 90%;
+ }
+
+ nav ul {
+     list-style: none;
+ }
+
+ nav > ul {
+display: table;
+overflow: hidden;
+width: 100%;
+position: relative;
+ }
+
+ nav > ul li{
+     display: inline-table;
+ }
+
+ nav > ul li a {
+color: #fff;
+display: block;
+line-height: 20px   ;
+padding: 20px;
+position: relative;
+text-align: left;   
+text-align: center;
+text-decoration-line: none; /*quitar subrayado en menu*/
+ }
+
