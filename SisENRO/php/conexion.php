@@ -1,22 +1,14 @@
 <?php
+
 function conectar(){
+$ruta  ="localhost";
+$login ="root";
+$pass="";
+$db    ="BDenro";
+$conexion= mysqli_connect($ruta, $login,$pass,$db)
+           or die(mysqli_error());
 
-    $host="localhost";
-    $user="root";
-    $password=" ";
-    $bd="Login";
-    
- $con = mysql_connect($host, $user, $password);
- 
-if (!$con) {
-	echo("Conectado");
-}else{
-    echo("No Conectado").mysql_error
-}
-
-mysql_select_db($bd, $con);
-return $con;
-
+return $conexion; 
 }
 
 ?>
